@@ -1,0 +1,77 @@
+.btn{
+
+    a{
+
+        text-decoration: none;
+    }
+    display: inline-block;
+    font-weight: 800;
+    text-transform: capitalize;
+    background-color:transparent;
+    &--rounded{
+        a{
+    
+            color:$black-color;
+            border:2px solid $black-color;
+            border-radius: 21px;
+            padding: 7px 24px;
+            font-weight: normal;
+            &:hover{
+              @include eleHover();
+            }
+        }
+    }
+    &--rectangle{
+        .active{
+            background-color:$primary-color ;
+            color: $white-color;
+        }
+
+        .departments-dropdown {
+            list-style: none;
+          position: absolute;
+          z-index: 3;
+          top: 50px;
+            display: flex;
+            flex-direction: column;
+
+            display: none;
+            li{
+                padding: 10px;
+                padding-right: 40px;
+                background-color:$primary-color ;
+                border-bottom: 1px solid $secondry-color;
+               &:hover{
+                
+                    background-color: $secondry-color;
+                a{
+                    background-color: $secondry-color;
+                }
+              
+               }
+                a{
+                    color: $white-color;
+                }
+            }
+          }
+          
+     &:hover  {
+        .departments-dropdown{
+            display: block;
+        }
+           
+          }
+        a{
+            padding: 11px;
+            color:$secondry-color;
+            font-size: 14px;
+            font-weight: bold;
+            &:hover{
+                 @include eleHover($primary-color);
+               
+            }
+        }
+
+    }
+}
+

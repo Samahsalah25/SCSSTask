@@ -1,0 +1,33 @@
+.navbar{
+
+  padding: 15px;
+    background-color: $light-font;
+    position: fixed;
+    width: 100%;
+
+    
+
+.navbar-nav{
+  position: relative;
+  z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+&__logo{
+    img{
+     width: 50%;
+     height: 80%;
+    }
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     .active{
+        background-color: $primary-color;
+      }
+
+}
+}
+}
+}

@@ -1,0 +1,18 @@
+.doctors{
+    padding: 100px;
+    margin-top: 150px;
+    background-color: white;
+     .card{
+         width: 25%;
+ 
+     }
+     
+     &__title{
+         margin-bottom: 38px;
+     }
+     &__row{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    }

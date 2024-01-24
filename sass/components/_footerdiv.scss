@@ -1,0 +1,37 @@
+.column-footer__details__location{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    .location_details{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        color:$dark-font ;
+        h3{
+            font-size: 22px;
+        }
+        div{
+            padding-top: 10px;
+            font-size: 16px;
+            span{
+                color: white;
+            }
+            p{font-size: 32px;}
+            i{
+                font-size: 32px;
+                padding-left: 10px;
+                cursor: pointer;
+            }
+          .faceIcon{
+            color: $primary-color;
+          }
+          .Twitter{
+            color:#00acee
+          }
+          .linkedIN{
+            color: $secondry-color;
+          }
+        }
+    }
+
+}

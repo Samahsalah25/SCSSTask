@@ -1,0 +1,24 @@
+.Insurance{
+   
+    padding: 100px;
+
+    background-color: white;
+  
+     
+     &__title{
+         margin-bottom: 38px;
+     
+     }
+     &__row{
+    
+        margin-top: 20px;
+        display: flex;
+        margin-bottom: 20px;
+        border: 1px solid $light;
+        justify-content: space-between;
+    .card--Insurance{
+        padding: 40px;
+   border-left: 1px solid $light;
+        }
+    }
+    }

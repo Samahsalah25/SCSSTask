@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/sass/main.css">
+    <title>Document</title>
+</head>
+<body>
+       
+     <div class= "section-bgcolor">
+
+        <div class="container ">
+            <!-- beforenavbar -->
+            <div class="datainfo" id="datainfo">
+              <div class="datainfo__details">
+                <i class="fa-solid fa-location-dot"></i> 1234 Street Name, City Name
+              </div>
+              <div class="datainfo__details">
+                <i class="fa-regular fa-envelope-open"></i> mail@example.com
+              </div>
+              <div class="datainfo__details none">
+                <i class="fa-solid fa-phone-volume"></i> (800) 123-4567
+              </div>
+            </div>
+            <!-- navbar section -->
+            <div class="navbar">
+               <div class="navbar-nav">
+                <div class="navbar-nav__logo">
+                    <img src="logo-medical.png">
+                </div>
+                <ul>
+                    <div class="btn btn--rectangle ">
+                        <a href="#" class="active ">home</a>
+                     </div> 
+                     <div class="btn btn--rectangle">
+                        <a href="#">ABOUT US</a>
+                     </div> 
+                     <div class="btn btn--rectangle" onmouseover="showDepartments()" onmouseout="hideDepartments()">
+                        <a href="#">DEPARTMENTS <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="departments-dropdown" id="departmentsDropdown">
+                          <li>  <a href="#">Cardiology</a></li>
+                           <li> <a href="#">Castroentorgy</a></li>
+                         <li>   <a href="#">Pulunology</a></li>
+                         <li>  <a href="#">Dentail</a></li>
+                         <li> <a href="#">Cencology</a></li>
+                       <li>   <a href="#">Heptology</a></li>
+                          </ul>
+                     </div> 
+                     <div class="btn btn--rectangle">
+                        <a href="#">DOCTORS</a>
+                     </div> 
+                     <div class="btn btn--rectangle">
+                        <a href="#">RESOURSES</a>
+                     </div> 
+                     <div class="btn btn--rectangle">
+                        <a href="#">INSURENCE</a>
+                     </div> 
+                     <div class="btn btn--rectangle">
+                        <a href="#">CONTACT</a>
+                     </div> 
+                     <div class="btn btn--rectangle">
+                        <a href="#">ELEMENTS</a>
+                     </div> 
+                     <div class="btn btn--rectangle">
+                        <a href="#">BUY BORTO</a>
+                     </div> 
+                </ul>
+
+               </div>
+            </div>
+            <!-- firsthome -->
+            <div class="divnone" style="visibility: hidden;">
+                jhasfashdfajsh
+            </div>
+
+
+            <div class="home">
+                <div class="slider">
+                  <div class="slide" id="slide1">
+                    <h2>SPECIALISTS</h2>
+                    <h3> 20 years about us</h3>
+                    <div class="boder">
+                        We are located in new work!
+                    </div>
+                  </div>
+                  <div class="slide" id="slide2">
+                    <h2>MEDICALAPPOINTMENT</h2>
+                    <h3> TALK TO US NOW TO SCEDUL MEDICALAPPOINTMENT</h3>
+                    <div class="boder">
+                        ONLINE OR OVER THE PHONE
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- My about section  -->
+            <div class="myabout">
+                <div class="Insurance__row">
+
+                    <div class="card--Insurance bg1">
+                        <div class="card-Insurance__img ">
+                            <i class="fa-regular fa-heart"></i>  Medical Treatment
+                        </div> 
+                        </div>
+                        <div class="card--Insurance bg2">
+                            <div class="card-Insurance__img ">
+                                DOCTOR TIMETABLE  <i class="fa-solid fa-arrow-right"></i>
+                                
+                            </div> 
+                            </div>
+                            <div class="card--Insurance bg3">
+                                <div class="card-Insurance__img ">
+                                  OPENING HOURS <i class="fa-solid fa-arrow-right"></i>
+                              
+                                </div> 
+                                </div>
+                                <div class="card--Insurance bg4">
+                                    <div class="card-Insurance__img ">
+                                        <i class="fa-solid fa-phone-volume"></i>  Emergency case
+                                    </div> 
+                                    </div>
+                                   
+                                       
+                       </div>
+                <div class="myabout__details">
+             <h3>About Us</h3>
+             <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non ornare arcu. Class aptent taciti sociosqu ad…</p>
+             <div class="myabout__details__btn ">
+
+                <div class="btn btn--rounded  ">
+                    <a href="#"> Read more</a>
+                </div>
+            </div>
+            </div>
+                <div class="myabout__img">
+                    <img src="gallery-1.jpg">
+                </div>
+
+            </div>
+    <!-- department section  -->
+            <div class="department">
+                <div class="titles department__title">
+                    <h2 class="titles__header">Departments</h2>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </div>
+                <div class="department__row">
+                    <div class="cardd cardd--icon department__row__card">
+                        <div class="cardd--icon__img">
+                            <img
+                                src="d1.png">
+                        </div>
+                        <div class="cardd--icon__text">
+                            <h2>Cardiology</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae
+                                interdum…</p>
+    
+                        </div>
+    
+                    </div>
+                    <div class="cardd cardd--icon">
+                        <div class="cardd--icon__img">
+                            <img
+                                src="/d2.png">
+                        </div>
+                        <div class="cardd--icon__text">
+                            <h2>Castroentorgy</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae
+                                interdum…</p>
+    
+                        </div>
+    
+                    </div>
+                    <div class="cardd cardd--icon">
+                        <div class="cardd--icon__img">
+                            <img
+                                src="d3.png">
+                        </div>
+                        <div class="cardd--icon__text">
+                            <h2>Pulunology</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae
+                                interdum…</p>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div class="department__row">
+                    <div class="cardd cardd--icon">
+                        <div class="cardd--icon__img">
+                            <img
+                                src="/d4.png">
+                        </div>
+                        <div class="cardd--icon__text">
+                            <h2>Dentail</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae
+                                interdum…</p>
+    
+                        </div>
+    
+                    </div>
+                    <div class="cardd cardd--icon">
+                        <div class="cardd--icon__img">
+                            <img
+                                src="d5.png">
+                        </div>
+                        <div class="cardd--icon__text">
+                            <h2>Cencology</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae
+                                interdum…</p>
+    
+                        </div>
+    
+                    </div>
+                    <div class="cardd cardd--icon">
+                        <div class="cardd--icon__img">
+                            <img
+                                src="d6.png">
+                        </div>
+                        <div class="cardd--icon__text">
+                            <h2>Heptology</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae
+                                interdum…</p>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div class="department__btn">
+
+                    <div class="btn btn--rounded  ">
+                        <a href="#"> view more</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+         <!-- doctors section -->
+            <div class="doctors">
+                <div class="titles doctors__title">
+               <h2 class="titles__header">Doctors</h2>
+               <span>Our Specialists.</span>
+           </div>
+           <div class="doctors__row">
+            <div class="card">
+                <div class="card__img">
+                    <img src="/doctor-1.jpg">
+                </div>
+                <div class="card__details">
+                    <div class="title">
+                        <p>Gastornthofly</p>
+                        <h3>Join Due</h3>
+                    </div>
+                    <div class="card__details__icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+               </div>
+             <!--  -->
+             <div class="card">
+                <div class="card__img">
+                    <img src="/doctor-2.jpg">
+                </div>
+                <div class="card__details">
+                    <div class="title">
+                        <p>Gastornthofly</p>
+                        <h3>Robin due</h3>
+                    </div>
+                    <div class="card__details__icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+               </div>
+             <!--  -->
+             <div class="card">
+                <div class="card__img">
+                    <img src="/doctor-3.jpg">
+                </div>
+                <div class="card__details">
+                    <div class="title">
+                        <p>Gastornthofly</p>
+                        <h3>Jeccia due</h3>
+                    </div>
+                    <div class="card__details__icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+               </div>
+             <!--  -->
+             <div class="card">
+                <div class="card__img">
+                    <img src="/doctor-4.jpg">
+                </div>
+                <div class="card__details">
+                    <div class="title">
+                        <p>Gastornthofly</p>
+                        <h3>Maria An Due</h3>
+                    </div>
+                    <div class="card__details__icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            
+             <!--  -->
+               </div>
+             
+             </div>
+         <!-- resourse section -->
+         <div class="resourse">
+            <div class="titles resourse__title">
+           <h2 class="titles__header">resourse</h2>
+           <span>Our Specialists.</span>
+       </div>
+       <div class="resourse__row">
+
+        <div class="card--resourse">
+            <div class="card--resourse__img">
+                <img src="gallery-2 (1).jpg">
+            </div>
+            <div class="card--resourse__details">
+                <div class="title">
+                    <h3>Prepare for visit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hend…</p>
+                 
+                </div>
+              
+            </div>
+           </div>
+         <!--  -->
+         <div class="card--resourse">
+            <div class="card--resourse__img">
+                <img src="gallery-3.jpg">
+            </div>
+            <div class="card--resourse__details">
+                <div class="title">
+                    <h3>Surgery proccess</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hend…</p>
+                </div>
+              
+            </div>
+           </div>
+         <!--  -->
+         <div class="card--resourse">
+            <div class="card--resourse__img">
+                <img src="gallery-4.jpg">
+            </div>
+            <div class="card--resourse__details">
+                <div class="title">
+                    <h3>Patients</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hend</p>
+                </div>
+               
+            </div>
+           </div>
+         <!--  -->
+        
+        
+         <!--  -->
+           </div>
+           <div class="department__btn">
+
+            <div class="btn btn--rounded  ">
+                <a href="#"> view more</a>
+            </div>
+        </div>
+         </div>
+      <!--  -->
+<!-- insuruence -->
+<div class="Insurance">
+    <div class="titles Insurance__title">
+   <h2 class="titles__header">Insurance</h2>
+   <span>Major insurance providers accepted.</span>
+</div>
+<div class="Insurance__row">
+
+<div class="card--Insurance">
+    <div class="card-Insurance__img">
+        <img src="insurance-logo-1.png">
+    </div> 
+    </div>
+    <div class="card--Insurance">
+        <div class="card-Insurance__img">
+            <img src="insurance-logo-2.png">
+        </div> 
+        </div>
+        <div class="card--Insurance">
+            <div class="card-Insurance__img">
+                <img src="insurance-logo-3.png">
+            </div> 
+            </div>
+            <div class="card--Insurance">
+                <div class="card-Insurance__img">
+                    <img src="insurance-logo-4.png">
+                </div> 
+                </div>
+                <div class="card--Insurance">
+                    <div class="card-Insurance__img">
+                        <img src="insurance-logo-5.png">
+                    </div> 
+                    </div>
+                    <div class="card--Insurance">
+                        <div class="card-Insurance__img">
+                            <img src="/insurance-logo-6.png">
+                        </div> 
+                        </div>
+   </div>
+<!--  -->
+        </div>
+        <!-- section before footer About footer -->
+        <div class="about">
+    
+        <div class="about__column">
+        
+        <div class="about__column__circle">
+            <i class="fa-solid fa-quote-right "></i>
+            </div>
+         
+           <p>  <i class="fa-solid fa-quote-right "></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quod dicta nesciunt tenetur perspiciatis, esse eos saepe tempore blanditiis temporibus nobis amet. Ut id molestias tenetur quaerat repellendus, porro incidunt. <i class="fa-solid fa-quote-right "></i> </p>
+   <div class="border-min">
+
+   </div>
+   <h3>JOHN SMIT</h3>
+        </div></div>
+        <!-- section footer -->
+        <div class="footer">
+         <div class="column-footer">
+            <div class="column-footer__details">
+                 <div class="column-footer__details__location">
+                    <h4>Location</h4>
+                    <div class="location_details">
+                        <div>Porto Medical</div>
+                        <div>123 Porto Blvd, Suite 100</div>
+                        <div>New York, NY</div>
+                        <div>Phone : 123-456-7890</div>
+                    </div>
+                 </div>
+                 <div class="column-footer__details__location">
+                    <h4>Opening Hours</h4>
+                    <div class="location_details">
+                        <div>Mon-Fri <span>:  8:30 am to 5:00 pm</span></div>
+                        <div>Saturday<span>:  9:30 am to 1:00 pm</span></div>
+                        <div>Sunday <span>: Closed</span></div>
+                      
+                    </div>
+                 </div>
+                 <!-- deatils 3 -->
+                 <div class="column-footer__details__location">
+                    <h4>Emergency Cases</h4>
+                    <div class="location_details">
+                        <div> <p>(800)123-456</p> </div>
+                    </div>
+                 </div>
+                 <!-- icons footer -->
+                 <div class="column-footer__details__location">
+                    <h4>Social Media</h4>
+                    <div class="location_details">
+                        <div><i class="fa-brands fa-square-facebook faceIcon"></i> <i class="fa-brands fa-twitter Twitter"></i> <i class="fa-brands fa-linkedin linkedIN"></i></div>
+                    </div>
+                 </div>
+            </div>
+            <div class="column-footer__hr">
+
+            </div>
+            <div class="column-footer__copyRight">
+                © copyright 2024. All Rights Reserved.
+            </div>
+         </div>
+        </div>
+ 
+   
+ <script>
+function showDepartments() {
+  document.getElementById("departmentsDropdown").style.display = "block";
+}
+
+function hideDepartments() {
+  document.getElementById("departmentsDropdown").style.display = "none";
+}
+window.onscroll = function() {
+    var hiddenDiv = document.getElementById('datainfo');
+
+    // Check if the user has scrolled beyond a certain point (e.g., 100 pixels from the top)
+    if (document.body.scrollTop > 30|| document.documentElement.scrollTop > 30) {
+      hiddenDiv.style.display = 'none'; // Set display to none
+    } else {
+      hiddenDiv.style.display = 'flex'; // Set display to block
+    }
+  };
+
+ </script>
+</body>
+</html>

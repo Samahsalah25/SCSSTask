@@ -1,0 +1,27 @@
+.resourse{
+   
+   padding: 100px;
+  
+    background-color: $section-gray;
+
+  
+     
+     &__title{
+         margin-bottom: 38px;
+         h2:{
+            font-size: 30px;
+         }
+         span:{
+            font-size: 28px;
+         }
+
+     }
+     &__row{
+        margin-top: 20px;
+        display: flex;
+        gap:30px;
+        margin-bottom: 20px;
+
+    }
+   
+    }

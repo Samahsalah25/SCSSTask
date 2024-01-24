@@ -1,0 +1,16 @@
+.datainfo{
+    padding: 20px;
+    padding-right: 80px;
+   color: $dark-font;
+    background-color: $light-font;
+    display: flex;
+    justify-content:flex-end;
+    font-size: 13px;
+  &__details{
+    padding: 5px;
+    border-right: 1px solid $dark-font;
+  }
+  .none{
+    border: none;
+  }
+}
